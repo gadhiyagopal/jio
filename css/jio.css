@@ -1,0 +1,1249 @@
+body{
+    margin: 0px;
+}
+.heading-bar{
+    padding-bottom: 0px;
+}
+.heading-bar > .heading-content{
+    background-color: #0F3CC9;
+    padding: 10px;
+}
+.heading-bar > .heading-content > ul > li{
+    display: inline-block;
+    list-style-type: none;
+}
+.heading-content > ul > li > a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    transition: 0.2s;
+}
+.heading-content > ul > li:nth-child(8){
+    padding-right: 220px;
+}
+.heading-content > img{
+    width: 44px;
+    float: left;
+    padding-left:55px;
+    margin-top: 4px;
+    padding-right: 40px;
+}
+.clear{
+    clear: both;
+    margin: 0px
+}
+.heading-content > .menu{
+    position: relative;
+}
+.heading-content > ul > .menu > .submenu a{
+    position: absolute;
+    background-color: #E30513;
+    color: white;
+    text-decoration: none;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 3px 12px;
+    left: 485px;
+    top: 5px;
+    border-radius: 10px;
+}
+.heading-content > ul > li > .simbol > span{
+    background-color: #E7EBF8;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 100px 100px;
+}
+.heading-content > ul > li > .simbol > span:nth-child(1){
+    font-size: 10px;
+    padding: 11px 11px;
+}
+.heading-content > ul > li > .simbol > span:nth-child(2){
+    padding: 8px;
+    padding: 8px 10px;
+    color: #0F3CC9;
+}
+.heading-content > ul > li > a:hover{
+    color: #acb7d6;
+    text-decoration: underline;
+}
+.heading-photo > .content p{
+    font-family: JioType, helvetica, arial, sans-serif;
+    width: 50%;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 2.5rem;
+    letter-spacing: -1.2px;
+    line-height: 1;
+    margin: 15px;
+    padding-left: 50px;
+    padding-top: 137px;
+}
+.heading-photo{
+    background-image: url('./../image/hadeing\ photo.webp');
+    background-size: 104% 100%;
+    width: 98%;
+    height: 500px;
+    padding-top: 0px;
+    margin: 1%;
+    border-radius: 20px;
+}
+.heading-photo > .content-2{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 600;
+    text-transform: none;
+    font-size: 18px;
+    padding-left: 62px;
+    padding-top: 20px;
+}
+.heading-photo > .button{
+    background-color: #0F3CC9;
+    display: inline-block;
+    margin-left: 66px;
+    margin-top: 25px;
+    padding: 15px 15px;
+    border-radius: 100px 100px 
+
+}
+.heading-photo > .button > a{
+    color: rgb(247, 243, 243);
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+.heading-photo > .button:hover{
+    background-color: #16368d;
+    cursor: pointer;
+}
+.heading-photo > .page-content{
+    background-color: #FFFFFF;
+    width: 170px;
+    margin-left: 999px;
+    margin-top: 95px;
+    border-radius: 100px 100px;
+}
+.heading-photo > .page-content > div{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.heading-photo > .page-content > div > span{
+    padding: 10px 11px;
+    border: 1px solid transparent;
+    border-radius: 100px 100px;
+    font-family: JioType, helvetica, arial, sans-serif;
+}
+.heading-photo > .page-content > div:nth-child(1){
+    padding-left: 20px;
+}
+.heading-photo > .page-content > div:nth-child(1) > span:hover,.heading-photo > .page-content > div:nth-child(3) > span:hover{
+    background-color: rgb(180, 178, 178);
+}
+.recharge-heading > h1{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.recharge-box{
+    background-color: #1144E4;
+    width: 800px;
+    height: 220px;
+    margin-left: 260px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.recharge-box > .div1 > div{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px
+}
+.recharge-box > .div1 > div > h2{
+    color: white;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 800;
+    font-size: 27px;
+    margin: 0px;
+}
+.recharge-box > .div1 > div > h6{
+    color: white;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0px;
+    margin-left: 415px;
+    cursor: pointer;
+}
+.recharge-box > .div1 > div > h6 > span{
+    font-size: 13px;
+    margin-left: 15px;
+}
+.recharge-box > .menu{
+    background-color: #0A2885;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 40px;
+    width: 261px;
+    margin-top: 20px;
+    border-radius: 100px 100px;
+}
+.recharge-box > .menu > div{
+    display: inline-block;
+    border: 1px solid transparent;
+}
+.recharge-box > .menu > div:nth-child(1){
+    background-color: #0F3CC9;
+    color: white;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    margin-left: 5px;
+    padding: 10px 20px;
+    border-radius: 100px 100px;
+    cursor: pointer;
+}
+.recharge-box > .menu > div:nth-child(2){
+    color: white;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    margin-left: 0px;
+    padding: 10px 20px;
+    border-radius: 100px 100px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.recharge-box > .menu > div:nth-child(2):hover{
+    background-color: #6789F4;
+}
+.menu-2{
+    margin-top: 20PX;
+    margin-left: 27px;
+}
+.menu-2 > .tel > input{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #ced4df;
+    margin-left: 20px;
+    width: 300px;
+    padding-left: 45px;
+    height: 40px;
+    border-radius: 15px;
+}
+.menu-2 > .tel{
+    position: relative;
+}
+.menu-2 > .tel > .submenu{
+    position: absolute;
+    left: 19px;
+    top: 12px;
+}
+.menu-2 > .tel > .submenu > span{
+    padding: 5px 10px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+.menu-2 > div{
+    display: inline-block;
+}
+.menu-2 > .button{
+    background: white;
+    margin-left: 10px;
+    padding: 12px 15px;
+    border-radius: 100px;
+}
+.menu-2 > .button a{
+    text-decoration: none;
+    color: #0F3CC9;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+.option{
+    margin-left: 0px;
+}
+.option > ul{
+    list-style-type: none;
+    margin-left: 340px;
+    margin-bottom: 60px;
+    
+}
+.option > ul > li{
+    display: inline-block;
+    border: 1px solid rgb(213, 213, 213);
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 100px;
+    transition: 0.3s
+}
+.option > ul > li > a{
+    text-decoration: none;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: bolder;
+    color: #0F3CC9;
+}
+.option > ul > li:hover{
+    border: 1px solid #0F3CC9;
+}
+.promocode-variant-img > div{
+    float: left;
+}
+.promocode-variant-img > .clear{
+    clear: both;
+}
+.promocode-variant-img > .img-1{
+    background-image: url(../image/1-n.jpg);
+    width: 45%;
+    height: 710px;
+    background-size: 102% 100%;
+    margin-left: 60px;
+    border-radius: 30px;
+}
+.promocode-variant-img > .img-2{
+    background-image: url(../image/2-n.jpg);
+    width: 45%;
+    height: 710px;
+    background-size: 112% 100%;
+    margin-left: 15px;
+    border-radius: 30px;
+}
+.promocode-variant-img > .img-1 > .button{
+    background-color: #0078AD;
+    width: 117px;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 13px 0px;
+    border-radius: 100px;
+}
+.promocode-variant-img > .img-1 > .button > a{
+    font-size: 17px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.promocode-variant-img > .img-1 > .content > h3{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    width: 426px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-transform: none;
+    font-size: 38px;
+    line-height: 1;
+}
+.promocode-variant-img > .img-1 > .content-2 > p{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: bolder;
+    margin-left: 40px;
+    margin-top: 15px;
+    text-transform: none;
+    font-size: 19x;
+    color: #505456;
+    letter-spacing: 1px;
+}
+.promocode-variant-img > .img-1 > .button-2{
+    background-color: #0078AD;
+    width: 113px;
+    margin-left: 40px;
+    margin-top: 23px;
+    padding: 10px 0px;
+    border-radius: 100px;
+}
+.promocode-variant-img > .img-1 > .button-2 > a{
+    font-size: 17px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.promocode-variant-img > .img-2 > .button{
+    background-color: #3535F3;
+    width: 117px;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 13px 0px;
+    border-radius: 100px;
+}
+.promocode-variant-img > .img-2 > .button > a{
+    font-size: 17px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.promocode-variant-img > .img-2 > .content > h3{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    color: white;
+    width: 426px;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-transform: none;
+    font-size: 38px;
+    line-height: 1;
+}
+.promocode-variant-img > .img-2 > .button-2{
+    background-color: #3535F3;
+    width: 133px;
+    margin-left: 40px;
+    margin-top: 23px;
+    padding: 10px 0px;
+    border-radius: 100px;
+}
+.promocode-variant-img > .img-2 > .button-2 > a{
+    font-size: 15px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+}
+.favourites-menu > h2{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 40px;
+    letter-spacing: -1.2px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.my-jio{
+    background-image: url('../image/3-n.webp');
+    width: 91%;
+    height: 500px;
+    margin-left: 60px;
+    background-size: contain;
+    border-radius: 30px;
+    background-size: 100% 100%;
+}
+.my-jio > .myjio-content > h6{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 25px;
+    margin-left: 40px;
+    padding-top: 120px;
+    margin-bottom: 0px;
+}
+.my-jio > .myjio-content-2 > h2{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 1000;
+    width: 450px;
+    margin: 0px;
+    line-height: 40px;
+    text-transform: none;
+    font-size: 37px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.my-jio > .myjio-content-3 > h6{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight:700;
+    line-height: 25px;
+    color: #505256;
+    width: 450px;
+    margin: 0px;
+    text-transform: none;
+    font-size: 17px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.my-jio > .button{
+    background-color: #0F3DC8;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 10px 0px;
+    border-radius: 100px;
+}
+.my-jio > .button > a{
+    color: white;
+    text-decoration: none;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight:700;
+    padding-left: 16px;
+}
+.my-jio > .button:hover{
+    background-color: #0A2885;
+}
+.promocode-variant-img-2 > div{
+    float: left;
+}
+.promocode-variant-img-2 > .clear{
+    clear: both;
+}
+.promocode-variant-img-2 > .jio-mart{
+    background-image: url(../image/4-n.jpg);
+    width: 45%;
+    height: 710px;
+    background-size: 126% 100%;
+    margin-left: 60px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.promocode-variant-img-2 > .jio-saavan{
+    background-image: url(../image/5-n.webp);
+    width: 45%;
+    height: 710px;
+    background-size: 126% 100%;
+    margin-left: 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.promocode-variant-img-2 > .jio-mart > .content > img{
+    width: 125px;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 13px 0px;
+}
+.promocode-variant-img-2 > .jio-mart > .content-2 > h2{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    margin-left: 40px;
+    font-size: 37px;
+    letter-spacing: -1.2px;
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.promocode-variant-img-2 > .jio-mart > .content-3 > p{
+    font-family: JioType, helvetica, arial, sans-serif;
+    width: 500px;
+    color: #505456;
+    font-weight: 400;
+    padding-top: 10px;
+    text-transform: none;
+    margin-left: 40px;
+    font-size: 20px;
+    letter-spacing: -0.7px;
+    margin-top: 0px;
+}
+.jio-mart > .button{
+    background-color: #0078AD;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 25px;
+    padding: 10px 0px;
+    border-radius: 100px;
+}
+.jio-mart > .button > a{
+    color: white;
+    text-decoration: none;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight:700;
+    padding-left: 18px;
+}
+.jio-mart > .button:hover{
+    background-color: #0C5273;
+}
+
+.promocode-variant-img-2 > .jio-saavan > .content > img{
+    width: 125px;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 13px 0px;
+}
+.promocode-variant-img-2 > .jio-saavan > .content-2 > h2{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    width: 350px;
+    text-transform: none;
+    color: #08332C;
+    margin-left: 40px;
+    font-size: 37px;
+    letter-spacing: -1.2px;
+    line-height: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.promocode-variant-img-2 > .jio-saavan > .content-3 > p{
+    font-family: JioType, helvetica, arial, sans-serif;
+    width: 500px;
+    color: #08332C;
+    font-weight: 400;
+    padding-top: 10px;
+    text-transform: none;
+    margin-left: 40px;
+    font-size: 20px;
+    letter-spacing: -0.7px;
+    margin-top: 0px;
+}
+.jio-saavan > .button{
+    background-color: #1ECCB0;
+    width: 150px;
+    margin-left: 40px;
+    margin-top: 25px;
+    padding: 10px 0px;
+    border-radius: 100px;
+}
+.jio-saavan > .button > a{
+    color: white;
+    text-decoration: none;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight:700;
+    padding-left: 18px;
+}
+.jio-saavan > .button:hover{
+    background-color: #1E7B74;
+}
+.favourites-menu-2 > h2{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 40px;
+    letter-spacing: -1.2px;
+    padding-top: 70px;
+    text-align: center;
+    margin: 0px;
+}
+.video-content > .content-1{
+    width: 76%;
+    height: 550px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.video-content > .content-1 > video{
+    border-radius: 20px;
+}
+.buy-button{
+    background-color: #0F3CC9;
+    margin-top: 30px;
+    width: 67px;
+    margin-left: 600px;
+    padding: 15px 20px;
+    border-radius:100px ;
+}
+.buy-button > a{
+    text-decoration: none;
+    color: white;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+}
+.buy-button:hover{
+    background-color: #0A2885;
+}
+.favourites-menu-3 > h2{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 30px;
+    letter-spacing: -1.2px;
+    padding-top: 70px;
+    padding-left: 150px;
+    margin: 0px;
+}
+.business-menu{
+    width: 76%;
+    height: 350px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.business-menu > div{
+    border: 1px solid #505456;
+    float: left;
+    box-sizing: border-box;
+    height: 350px;
+    margin: 2.5px;
+    border-radius: 20px;
+}
+.clear{
+    clear: both;
+    margin: 0px;
+}
+.business-menu > div:nth-child(1){
+    width: 28%;
+}
+.business-menu > div:nth-child(2){
+    width: 28%;
+}
+.business-menu > div:nth-child(3){
+    width: 28%;
+}
+.business-menu > div:nth-child(4){
+    width: 14%;
+    border-radius: 20px 0px 0px 20px;
+    border-right:1px solid transparent ;
+}
+.business-menu > .business-menu-1 > .content{
+    font-size: 35px;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.business-menu > .business-menu-1 > .content-1 > h3{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 21px;
+    margin-top: 30px;
+    line-height: 20px;
+    margin-left: 25px;
+}
+.business-menu > .business-menu-1 > .content-2 > h5{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    width: 240px;
+    text-transform: none;
+    font-size: 16px;
+    margin-top: 25px;
+    line-height: 20px;
+    margin-left: 25px;
+    color: #595959;
+}
+.business-menu > .business-menu-1 > .content-3{
+    padding-top: 20px;
+}
+.business-menu > .business-menu-1 > .content-3 > a{
+    text-decoration: none;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 15px;
+    color:  #0A2885;
+    margin-left: 25px;
+}
+.business-menu > .business-menu-1 > .content-3 > a > span > i{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.business-menu > .business-menu-2 > .content{
+    font-size: 35px;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.business-menu > .business-menu-2 > .content-1 > h3{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 21px;
+    margin-top: 30px;
+    line-height: 20px;
+    margin-left: 25px;
+}
+.business-menu > .business-menu-2 > .content-2 > h5{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    width: 250px;
+    text-transform: none;
+    font-size: 16px;
+    margin-top: 25px;
+    line-height: 20px;
+    margin-left: 25px;
+    color: #595959;
+}
+.business-menu > .business-menu-2 > .content-3{
+    padding-top: 20px;
+}
+.business-menu > .business-menu-2 > .content-3 > a{
+    text-decoration: none;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 15px;
+    color:  #0A2885;
+    margin-left: 25px;
+}
+.business-menu > .business-menu-2 > .content-3 > a > span > i{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.business-menu > .business-menu-3 > .content{
+    font-size: 35px;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.business-menu > .business-menu-3 > .content-1 > h3{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    width: 200px;
+    text-transform: none;
+    font-size: 21px;
+    margin-top: 30px;
+    line-height: 20px;
+    margin-left: 25px;
+}
+.business-menu > .business-menu-3 > .content-2 > h5{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    width: 230px;
+    text-transform: none;
+    font-size: 16px;
+    margin-top: 25px;
+    line-height: 20px;
+    margin-left: 25px;
+    color: #595959;
+}
+.business-menu > .business-menu-3 > .content-3{
+    padding-top: 20px;
+}
+.business-menu > .business-menu-3 > .content-3 > a{
+    text-decoration: none;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 15px;
+    color:  #0A2885;
+    margin-left: 25px;
+}
+.business-menu > .business-menu-3 > .content-3 > a > span > i{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.business-menu > .business-menu-4 > .content{
+    font-size: 35px;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.business-menu > .business-menu-4 > .content-1 > h3{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    width: 200px;
+    text-transform: none;
+    font-size: 21px;
+    margin-top: 30px;
+    line-height: 20px;
+    margin-left: 25px;
+}
+.business-menu > .business-menu-4 > .content-2 > h5{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    width: 110px;
+    text-transform: none;
+    font-size: 16px;
+    margin-top: 25px;
+    line-height: 20px;
+    margin-left: 25px;
+    color: #595959;
+    
+}
+.business-menu > .business-menu-4 > .content-3{
+    padding-top: 20px;
+}
+.business-menu > .business-menu-4 > .content-3 > a{
+    text-decoration: none;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 15px;
+    color:  #0A2885;
+    margin-left: 25px;
+}
+.business-menu > .business-menu-4 > .content-3 > a > span > i{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.page-manu-2{
+    margin-left: 1065px;
+    margin-top: 40px;
+}
+.page-manu-2 > div{
+    display: inline-block;
+    border: 1px solid #505456;
+    padding: 5px 12px;
+    margin: 5px;
+    border-radius: 100px 100px;
+}
+.page-manu-2 > div > i{
+    font-size: 10px;
+}
+.favourites-menu-4 > h2{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 40px;
+    letter-spacing: -1.2px;
+    padding-top: 70px;
+    padding-left: 150px;
+    margin: 0px;
+}
+.favourites-menu-4 > h5{
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #505456;
+    padding: 15px;
+    padding-left: 150px;
+    margin: 0px;
+}
+.withjio-menu{
+    width: 76%;
+    height: 350px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.withjio-menu > div{
+    float: left;
+    box-sizing: border-box;
+    height: 270px;
+    margin: 2.5px;
+    border-radius: 20px;
+}
+.withjio-clear{
+    clear: both;
+    margin: 0px;
+}
+.withjio-menu > div:nth-child(1){
+    width: 28%;
+}
+.withjio-menu > div:nth-child(2){
+    width: 28%;
+}
+.withjio-menu > div:nth-child(3){
+    width: 28%;
+}
+.withjio-menu > div:nth-child(4){
+    width: 14%;
+    border-radius: 20px 0px 0px 20px;
+    border-right:1px solid transparent ;
+}
+.withjio-menu > .withjio-menu-1 > img{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px 20px  ;
+}
+.withjio-menu > .withjio-menu-2 > img{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px 20px  ;
+}
+.withjio-menu > .withjio-menu-3 > img{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px 20px  ;
+}
+.withjio-menu > .withjio-menu-4 > img{
+    width: 100%;
+    height: 150px;
+    border-radius: 20px 0px 0px 20px;
+}
+.page-manu-3{
+    margin-left: 1065px;
+    margin-top: -20px;
+}
+.page-manu-3 > div{
+    display: inline-block;
+    border: 1px solid #505456;
+    padding: 5px 12px;
+    margin: 5px;
+    border-radius: 100px 100px;
+}
+.page-manu-3 > div > i{
+    font-size: 10px;
+}
+.withjio-menu > .withjio-menu-1 > h3{
+    margin: 0px;
+    margin-top: 15px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 15px;
+    color: #505456;
+}
+.withjio-menu > .withjio-menu-1 > h2{
+    margin: 0px;
+    width: 237px;
+    margin-top: 10px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 600;
+    text-transform: none;
+    font-size: 18px;
+}
+.withjio-menu > .withjio-menu-2 > h3{
+    margin: 0px;
+    margin-top: 15px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 15px;
+    color: #505456;
+}
+.withjio-menu > .withjio-menu-2 > h2{
+    margin: 0px;
+    width: 237px;
+    margin-top: 10px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 600;
+    text-transform: none;
+    font-size: 18px;
+}
+.withjio-menu > .withjio-menu-3 > h3{
+    margin: 0px;
+    margin-top: 15px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 15px;
+    color: #505456;
+}
+.withjio-menu > .withjio-menu-3 > h2{
+    margin: 0px;
+    width: 237px;
+    margin-top: 10px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 600;
+    text-transform: none;
+    font-size: 18px;
+}
+.withjio-menu > .withjio-menu-4 > h3{
+    margin: 0px;
+    margin-top: 15px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 700;
+    text-transform: none;
+    overflow: hidden;
+    font-size: 15px;
+    color: #505456;
+}
+.withjio-menu > .withjio-menu-4 > h2{
+    margin: 0px;
+    width: 100%;
+    margin-top: 10px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 600;
+    overflow: hidden;
+    text-transform: none;
+    font-size: 18px;
+}
+.wrapperFooter{
+    background-color: #F5F5F5;
+    height: 570px;
+    padding-bottom:30px;
+}
+.wrapperFooter > div{
+    float: left;
+    width: 13%;
+    margin: 14px;
+}
+.wrapperFooter > div:nth-child(1){
+    margin-left: 60px;
+}
+.wrapperFooter > div:nth-child(5){
+    margin-left: 10px;
+    width: 30%;
+}
+.wrapperFooter > .offerings-content > h3{
+    padding-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 15px;
+
+}
+.wrapperFooter > .offerings-content > ul{
+    padding-left: 0px;
+}
+.wrapperFooter > .offerings-content > ul > li{
+    list-style-type: none;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 550;
+    text-transform: none;
+    padding: 10px 5px;
+    margin-top: 3px;
+    font-size: 14px;
+    color: #505456;
+}
+.wrapperFooter > .Support-content > h3{
+    padding-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 15px;
+
+}
+.wrapperFooter > .Support-content > ul{
+    padding-left: 0px;
+}
+.wrapperFooter > .Support-content > ul > li{
+    list-style-type: none;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 550;
+    text-transform: none;
+    padding: 10px 5px;
+    margin-top: 3px;
+    font-size: 14px;
+    color: #505456;
+}
+.wrapperFooter > .company-content > h3{
+    padding-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 15px;
+
+}
+.wrapperFooter > .company-content > ul{
+    padding-left: 0px;
+}
+.wrapperFooter > .company-content> ul > li{
+    list-style-type: none;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 550;
+    text-transform: none;
+    font-size: 14px;
+    color: #505456;
+    padding: 10px 5px;
+    margin-top: 3px;
+}
+.wrapperFooter > .links-content > h3{
+    padding-left: 0px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 15px;
+
+}
+.wrapperFooter > .links-content > ul{
+    padding-left: 0px;
+}
+.wrapperFooter > .links-content > ul > li{
+    list-style-type: none;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 550;
+    text-transform: none;
+    font-size: 14px;
+    padding-left: 0px;
+    padding: 10px 5px;
+    margin-top: 3px;
+    color: #505456;
+}
+.online-content > h2{
+    padding-left: 0px;
+    padding-top: 20px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 900;
+    text-transform: none;
+    font-size: 23px;
+}
+.online-content > .online-simbol > span:nth-child(1){
+    padding: 8PX 9PX;
+    background-color: #0F3CC9;
+    color: white;
+    border-radius: 100px 100px;
+    margin-right: 9PX;
+}
+.online-content > .online-simbol > span:nth-child(2){
+    padding: 8PX 10PX;
+    background-color: #0F3CC9;
+    color: white;
+    border-radius: 100px 100px;
+    margin-right: 6PX;
+}
+.online-content > .online-simbol > span:nth-child(3){
+    padding: 8PX 9PX;
+    background-color: #0F3CC9;
+    color: white;
+    border-radius: 100px 100px;
+    margin-right: 6PX;
+}
+.online-content > .online-simbol > span:nth-child(4){
+    padding: 8PX 8PX;
+    background-color: #0F3CC9;
+    color: white;
+    border-radius: 100px 100px;
+    margin-right: 6PX;
+}
+.online-content > .online-simbol > span:nth-child(5){
+    padding: 8PX 10PX;
+    background-color: #0F3CC9;
+    color: white;
+    border-radius: 100px 100px;
+    margin-right: 6PX;
+}
+.online-content > .online-simbol > span:hover{
+    background-color: #0A2885;
+}
+.online-content > .img > div{
+    display: inline-block;
+    margin-left: 10px;
+}
+.last-content-row{
+    background-color: #F5F5F5;
+    border-top: 1px solid #E0E0E0;
+    height: 50px;
+    float: left;
+    padding-right: 75px;
+}
+.last-content-row > .last-row >img{
+    width: 35px;
+    float: left;
+    padding-top: 5px;
+}
+.last-content-row > .last-row-2 > h6{
+    list-style-type: none;
+    margin: 0px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 550;
+    color: #505456
+}
+.last-content-row > div{
+    float: left;
+}
+.last-content-row > div:nth-child(1){
+    margin-left: 60px;
+}
+.last-content-row > div:nth-child(2){
+    margin-left: 0px;
+    margin-top: 20px;
+}
+.last-content-row > div:nth-child(3){
+    margin-left: 450px;
+    margin-top: 13px;
+}
+.last-content-row > .last-content > ul > li{
+    display: inline-block;
+    font-size: 11px;
+    list-style-type: none;
+    margin: 0px;
+    font-family: JioType, helvetica, arial, sans-serif;
+    font-weight: 550;
+    padding: 7px 0px;
+}
+.last-content-row > .last-content > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+.last-content-row > .last-content > ul > li > a{
+    text-decoration: none;
+    color: #0A2885;
+    padding: 5px 10px;
+    border-left: 1px solid #E0E0E0;
+}
+.last-content-row > .last-content > ul > li:nth-child(1) > a:nth-child(1){
+    border-left: none;
+}
+.last-content-row > .last-content > ul > li > a:hover{
+    text-decoration: underline;
+}
+.wrapperFooter > .links-content > ul > li:hover,.wrapperFooter > .company-content> ul > li:hover,.wrapperFooter > .Support-content > ul > li:hover,.wrapperFooter > .offerings-content > ul > li:hover{
+    background-color: #E0E0E0;
+}
+.last-clear{
+    clear: both;
+    margin: 0px;
+}
